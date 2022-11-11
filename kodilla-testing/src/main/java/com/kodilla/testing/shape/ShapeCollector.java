@@ -9,8 +9,7 @@ public class ShapeCollector {
     private List<Shape> figures = new ArrayList<>();
 
     public boolean addFigure(Shape shape){
-        figures.add(shape);
-        return true;
+        return figures.add(shape);
     }
     public boolean removeFigure(Shape shape){
         if(figures.contains(shape)){
