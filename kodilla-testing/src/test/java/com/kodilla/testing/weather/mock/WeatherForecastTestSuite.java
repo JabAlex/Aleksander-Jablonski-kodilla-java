@@ -20,8 +20,7 @@ class WeatherForecastTestSuite {
 
     @Mock
     private Temperatures temperaturesMock;
-
-   static Map<String, Double> temperaturesMap = new HashMap<>();
+    static Map<String, Double> temperaturesMap = new HashMap<>();
 
     @BeforeAll
     static void TemperaturesMapFill(){
